@@ -1,0 +1,42 @@
+Description: A multi-jointed arm that mimics the movements of a human arm.
+Applications: Grasping, lifting, digging, drilling, and other manipulation tasks.
+Example: The Mars rovers, such as the Mars Curiosity Rover, are equipped with robotic arms.
+
+Components:
+Base:
+The base serves as the attachment point for the manipulator to the rover.
+It should allow for rotation, enabling the manipulator to reach different areas without moving the entire rover.
+
+Arm:
+The arm is responsible for extending and retracting the manipulator.
+It can be a telescopic arm made of lightweight materials like aluminum to keep the weight minimal.
+
+End Effector:
+The end effector is the tool or device at the end of the manipulator that performs tasks.
+It could be a simple gripper for grabbing objects, a camera for inspection, or any other tool suited for the mission.
+
+Actuators:
+Use simple electric motors or servo motors for actuation.
+Linear actuators for extending and retracting the arm.
+Rotational actuators for the base and wrist movements.
+
+Control System:
+Implement a basic control system that allows operators to manipulate the arm remotely.
+Use simple joystick controls for basic movements.
+Incorporate sensors for feedback to enhance precision
+
+Mechanism:
+
+Base Rotation:
+Employ a motorized joint at the base for rotating the entire manipulator.
+This allows the rover to change the direction of the manipulator without repositioning the entire vehicle.
+
+Telescopic Arm:
+Use a linear actuator to extend and retract the arm.
+The telescopic design provides flexibility in reaching different distances.
+
+Wrist Movement:
+Add a rotational joint (actuator) at the wrist to allow the end effector to be positioned correctly.
+
+End Effector Attachment:
+Design the end effector attachment mechanism to be modular, allowing easy swapping of tools based on mission requirements.
